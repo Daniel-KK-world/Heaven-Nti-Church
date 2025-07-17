@@ -1,49 +1,72 @@
+// components/Navbar.js
+import React from "react";
+import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-      <div className="container">
-        <a className="navbar-brand fw-bold text-primary" href="#">
-          Heaven NTI
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link active" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                About Us
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Ministries
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Events
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+    <header className="w-100">
+      {/* Top Strip */}
+      <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center">
+        <p className="mb-0">Sunday Service: 9:00 AM | Midweek: Wed 6:30 PM | Fri 6:30 PM</p>
+        <p className="mb-0">Call: +233 XXX XXX XXX</p>
       </div>
-    </nav>
+
+      {/* Main Navbar */}
+      <nav className="navbar navbar-expand-md navbar-light bg-white shadow-sm px-4 py-3">
+        <div className="container-fluid">
+          {/* Logo + Title */}
+          <div className="d-flex align-items-center gap-3">
+            <img
+              src={logo}
+              alt="Heaven NTI Church Logo"
+              className="img-fluid"
+              style={{ height: "50px", width: "auto" }}
+            />
+            <h1 className="h5 fw-bold text-dark mb-0">Heaven NTI Church</h1>
+          </div>
+
+          {/* Toggle Button */}
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          {/* Navigation Links */}
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul className="navbar-nav me-3 mb-2 mb-md-0">
+              <li className="nav-item">
+                <Link className="nav-link" to="/">Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">About Us</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/ministries">Ministries</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/events">Events</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">Contact</Link>
+              </li>
+            </ul>
+
+            {/* CTA */}
+            <a href="#" className="btn btn-danger text-white px-4 py-2 rounded-pill fw-semibold">
+              Watch Live
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
   );
 }
 
