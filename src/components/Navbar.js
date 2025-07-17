@@ -7,13 +7,13 @@ function Navbar() {
   return (
     <header className="w-100">
       {/* Top Strip */}
-      <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center">
-        <p className="mb-0">Sunday Service: 9:00 AM | Midweek: Wed 6:30 PM | Fri 6:30 PM</p>
+      <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center sticky-top">
+        <p className="mb-0">Sunday Service: 9:00 AM | Midweek: Tue 6:30 PM | Fri 6:30 PM</p>
         <p className="mb-0">Call: +233 XXX XXX XXX</p>
       </div>
 
       {/* Main Navbar */}
-      <nav className="navbar navbar-expand-md navbar-light bg-white shadow-sm px-4 py-3">
+      <nav className="navbar navbar-expand-md navbar-light bg-white shadow-sm px-4 py-3 ">
         <div className="container-fluid">
           {/* Logo + Title */}
           <div className="d-flex align-items-center gap-3">
@@ -21,7 +21,7 @@ function Navbar() {
               src={logo}
               alt="Heaven NTI Church Logo"
               className="img-fluid"
-              style={{ height: "50px", width: "auto" }}
+              style={{ height: "40px", width: "auto" }}
             />
             <h1 className="h5 fw-bold text-dark mb-0">Heaven NTI Church</h1>
           </div>
