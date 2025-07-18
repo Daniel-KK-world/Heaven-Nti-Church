@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <header className="w-100">
       {/* Top Strip */}
-      <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center sticky-top">
+      <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center">
         <p className="mb-0">Sunday Service: 9:00 AM | Midweek: Tue 6:30 PM | Fri 6:30 PM</p>
         <p className="mb-0">Call: +233 XXX XXX XXX</p>
       </div>

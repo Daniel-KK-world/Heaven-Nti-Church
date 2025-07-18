@@ -1,26 +1,26 @@
 import React from "react";
 import Slider from "react-slick";
 
-import poster1 from "../assets/poster1.jpg";
-import poster2 from "../assets/poster2.jpg";
-import poster3 from "../assets/poster3.jpg";
+import pastor5 from "../assets/pastor5.jpg";
+import pastor2 from "../assets/pastor2.jpg";
+import churchmother from "../assets/churchmother.jpg";
 
 function HeroSlider() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 5000,
-    fade: true,
-    arrows: false,
-    cssEase: "ease-in-out",
-  };
+const settings = {
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  speed: 700,            // Slide transition speed
+  autoplaySpeed: 4000,   // 4 seconds per slide
+  fade: true,
+  arrows: false,
+  cssEase: "ease-in-out",
+};
 
   const slides = [
-    { image: poster1, caption: "join us" },
-    { image: poster2, caption: "halleluyah" },
-    { image: poster3, caption: "praise-fest" },
+    { image: pastor5, caption: "" },
+    { image: pastor2, caption: "Jesus Christ is coming soon" },
+    { image: churchmother, caption: "Join us to worship" },
   ];
 
   return (
@@ -33,8 +33,10 @@ function HeroSlider() {
               alt={`Slide ${index + 1}`}
               className="img-fluid w-100"
               style={{
-                maxHeight: "85vh",
+                maxHeight: "180vh",
                 objectFit: "cover",
+                marginTop: "3px",
+                didplay: "block",
                 filter: "brightness(95%)",
               }}
             />

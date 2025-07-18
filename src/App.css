@@ -5,3 +5,39 @@
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
+
+.card-hover {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-container img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card-hover:hover .img-container img {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+
+.bottom-stripe {
+  height: 5px;
+  background-color: #dc3545; /* Bootstrap's red (danger) color */
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
