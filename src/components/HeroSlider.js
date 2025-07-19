@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import pastor5 from "../assets/pastor5.jpg";
 import pastor2 from "../assets/pastor2.jpg";
 import churchmother from "../assets/churchmother.jpg";
+import pastor3 from "../assets/pastor3.jpg";
 
 function HeroSlider() {
 const settings = {
@@ -21,6 +22,8 @@ const settings = {
     { image: pastor5, caption: "" },
     { image: pastor2, caption: "Jesus Christ is coming soon" },
     { image: churchmother, caption: "Join us to worship" },
+    { image: pastor3, caption: "Experience the power of prayer" },
+    
   ];
 
   return (

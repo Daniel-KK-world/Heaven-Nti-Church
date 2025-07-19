@@ -41,3 +41,22 @@
   bottom: 0;
   left: 0;
 }
+
+/* Testimony Styles */
+.heading-underline {
+  position: relative;
+  display: inline-block;
+  font-size: 2.5rem;
+}
+
+.heading-underline::after {
+  content: '';
+  width: 60%;
+  height: 3px;
+  background-color: #ffc107; /* golden accent */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  border-radius: 4px;
+}

@@ -1,6 +1,11 @@
 import HeroSlider from "../components/HeroSlider";
 import HeroCards from "../components/HeroCards";
 import css from "../App.css";
+import MinistryCards from "../components/MinistryCards";
+import Testimonies from "../components/Testimonies";
+import MissionVision from "../components/MissionVision";
+import Founders from "../components/founders";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -18,6 +23,22 @@ function Home() {
       </section>
 
       <HeroCards/>
+      <h3 className="text-center my-5 fw-bold ">
+        <span className="text-primary">Our Ministries</span> &amp; <span className="text-success">Conventions</span>
+      </h3>
+
+      <MinistryCards/>
+
+      <h3 className="text-center my-5 fw-bold ">
+        <span className="text-primary">About Heaven</span>
+        <span className="text-success">Nti</span>
+      </h3>
+      <Founders />
+      <MissionVision />
+      <Testimonies />
+      <Contact />
+
+      {/* Footer Section */}
       </div>
   );
 }
