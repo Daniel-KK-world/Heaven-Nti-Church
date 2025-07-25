@@ -16,6 +16,9 @@ function About() {
       </h3>
       <Branches />
       <Contact />
+      <h3 className="text-center my-5 fw-bold ">
+      <span className="text-primary">Join the last</span> <span className="text-success">Bus to Heaven</span>
+      </h3>
       <Footer />
 
     </div>

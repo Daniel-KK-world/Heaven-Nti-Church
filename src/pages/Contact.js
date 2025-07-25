@@ -1,11 +1,21 @@
-function Contact() {
+import HeroSlider from "../components/HeroSlider";
+import Branches from "../components/Branches";
+import Footer from "../components/Footer";
+import Contact from "../components/Contact"
+
+function ContactPage() {
   return (
     <div>
-      <h1>Contact Us</h1>
-      <p>If you have any questions or need assistance, please reach out to us.</p>
-      {/* Additional content can be added here */}
+      <HeroSlider />
+      <Contact />
+      <Branches /> 
+      <h3 className="text-center my-5 fw-bold ">
+      <span className="text-primary">Join the last</span> <span className="text-success">Bus to Heaven</span>
+      </h3>
+
+      <Footer />
     </div>
   );
 }
 
-export default Contact;
+export default ContactPage;
