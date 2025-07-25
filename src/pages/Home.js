@@ -6,6 +6,7 @@ import Testimonies from "../components/Testimonies";
 import MissionVision from "../components/MissionVision";
 import Founders from "../components/founders";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
       <Contact />
 
       {/* Footer Section */}
+      <Footer />
       </div>
   );
 }

@@ -1,30 +1,29 @@
-import churchcrowd1 from '../assets/churchcrowd1.webp';
-import churchcrowd2 from '../assets/churchcrowd2.jpg';
-import churchcrowd3 from '../assets/churchcrowd3.jpg';
-import churchcrowd4 from '../assets/churchcrowd4.webp';
+import womenscrowd from '../assets/womenscrowd.png';
+import youthcrowd from '../assets/youthcrowd.webp';
+import menscrowd from '../assets/menscrowd.jpg';
+import childrencrowd from '../assets/childrencrowd.webp';
 import churchcrowd5 from '../assets/churchcrowd5.jpg';
 import churchcrowd6 from '../assets/churchcrowd6.jpg';
 import '../App.css'; // Assuming your custom styles go here
-
 function Branches() {
   const cardData = [
     {
-      img: churchcrowd1,
+      img: youthcrowd,
       title: 'East-Legon Hills ',
       desc: 'Accra | Headquaters - Join us every Sunday at 9:00 AM to encounter God’s presence together.',
     },
     {
-      img: churchcrowd2,
+      img: menscrowd,
       title: 'Gbetsile ',
       desc: 'Accra | Join us every Sunday at 9:00 AM to encounter God’s presence together.',
     },
     {
-      img: churchcrowd3,
+      img: childrencrowd,
       title: 'Apolonia',
       desc: 'Accra | Join us every Sunday at 9:00 AM to encounter God’s presence together.',
     },
     {
-      img: churchcrowd4,
+      img: womenscrowd,
       title: 'Bechem Breme',
       desc: 'Bechem Breme | Join us every Sunday at 9:00 AM to encounter God’s presence together.',
     },

@@ -1,7 +1,7 @@
-import churchcrowd1 from '../assets/churchcrowd1.webp';
-import churchcrowd2 from '../assets/churchcrowd2.jpg';
-import churchcrowd3 from '../assets/churchcrowd3.jpg';
-import churchcrowd4 from '../assets/churchcrowd4.webp';
+import womenscrowd from '../assets/womenscrowd.png';
+import youthcrowd from '../assets/youthcrowd.webp';
+import menscrowd from '../assets/menscrowd.jpg';
+import childrencrowd from '../assets/childrencrowd.webp';
 import churchcrowd5 from '../assets/churchcrowd5.jpg';
 import churchcrowd6 from '../assets/churchcrowd6.jpg';
 import '../App.css'; // Assuming your custom styles go here
@@ -10,34 +10,34 @@ function MinistryCards() {
 
      const cardData = [
     {
-      img: churchcrowd1,
-      title: 'Sunday Worship',
-      desc: 'Join us every Sunday at 9:00 AM to encounter God’s presence together.',
+      img: menscrowd,
+      title: 'Mens Ministry',
+      desc: 'Join a community of men moving with purpose and a vision to serve God..',
     },
     {
-      img: churchcrowd2,
-      title: 'Midweek Services',
-      desc: 'Tuesdays at 6:30 PM — recharge with teaching, worship, and fellowship.',
+      img: womenscrowd,
+      title: 'Womens Ministry',
+      desc: 'Join numerous women of god as they study, praise and worship God',
     },
     {
-      img: churchcrowd3,
-      title: 'Friday Service',
-      desc: 'Friday evenings at 6:30 PM. Step into prayer, revival, and growth.',
+      img: youthcrowd,
+      title: 'Youth Ministry',
+      desc: 'Remember your creator in the time of your youth',
     },
     {
-      img: churchcrowd4,
-      title: 'Youth Fellowship',
-      desc: 'Raising tomorrow’s leaders — energetic worship & real talk for youth.',
+      img: childrencrowd,
+      title: 'Sunday School',
+      desc: 'Raising tomorrow’s leaders from a young age',
     },
     {
       img: churchcrowd5,
-      title: 'Women’s Ministry',
-      desc: 'A safe space for women to thrive, grow, and build each other up in Christ.',
+      title: 'Christmas Convention',
+      desc: 'Three day convention to celebrate the birth of Jesus Christ and spread the gospel',
     },
     {
       img: churchcrowd6,
-      title: 'Prayer Night',
-      desc: 'Break chains and intercede every last Friday of the month at 10 PM.',
+      title: 'Easter Convention',
+      desc: 'Three day convention to celebrate the death and resurection of Jesus Christ',
     },
   ];
   return (
