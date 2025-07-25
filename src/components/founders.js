@@ -31,7 +31,7 @@ function Founders() {
             <div className="card shadow-sm border-0">
               <img src={churchmother} alt="First Lady" className="card-img-top rounded-top" />
               <div className="card-body">
-                <h4 className="card-title text-warning fw-bold">Prophetess Doris Asumadu </h4>
+                <h4 className="card-title text-warning fw-bold">Prophetess Doris Ananae </h4>
                 <p className="card-text">
                   A powerful intercessor and co-laborer in the ministry. She leads the women's ministry with
                   grace, wisdom, and compassion raising daughters of virtue and vision.

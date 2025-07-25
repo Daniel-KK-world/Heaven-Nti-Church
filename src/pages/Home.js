@@ -1,6 +1,5 @@
 import HeroSlider from "../components/HeroSlider";
 import HeroCards from "../components/HeroCards";
-import css from "../App.css";
 import MinistryCards from "../components/MinistryCards";
 import Testimonies from "../components/Testimonies";
 import MissionVision from "../components/MissionVision";
@@ -29,11 +28,6 @@ function Home() {
       </h3>
 
       <MinistryCards/>
-
-      <h3 className="text-center my-5 fw-bold ">
-        <span className="text-primary">About Heaven</span>
-        <span className="text-success">Nti</span>
-      </h3>
       <Founders />
       <MissionVision />
       <Testimonies />

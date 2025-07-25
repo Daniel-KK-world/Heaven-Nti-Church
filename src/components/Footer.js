@@ -20,7 +20,7 @@ const Footer = () => {
             <p><a href="/about" className="text-white text-decoration-none">About Us</a></p>
             <p><a href="/ministries" className="text-white text-decoration-none">Ministries</a></p>
             <p><a href="/contact" className="text-white text-decoration-none">Contact</a></p>
-            <p><a href="/vision" className="text-white text-decoration-none">Vision & Mission</a></p>
+            <p><a href="/about" className="text-white text-decoration-none">Vision & Mission</a></p>
           </div>
 
           {/* Contact */}
@@ -51,7 +51,7 @@ const Footer = () => {
             <p>© {new Date().getFullYear()} Heaven Nti Church. All Rights Reserved.</p>
           </div>
           <div className="col-md-5 col-lg-4">
-            <p className="text-end">Made with ❤️ by SuperDan</p>
+            <p className="text-end">Built by +233508514620</p>
           </div>
         </div>
       </div>

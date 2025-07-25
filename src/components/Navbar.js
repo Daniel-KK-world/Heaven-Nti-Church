@@ -51,9 +51,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link" to="/ministries">Ministries</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/events">Events</Link>
-              </li>
+              
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">Contact</Link>
               </li>
@@ -61,7 +59,7 @@ function Navbar() {
 
             {/* CTA */}
             <a href="#" className="btn btn-danger text-white px-4 py-2 rounded-pill fw-semibold">
-              Watch Live
+              Revelator Show
             </a>
           </div>
         </div>
