@@ -32,14 +32,14 @@ const Footer = () => {
             <p><i className="fas fa-phone mr-3"></i> 0532 059 359</p>
           </div>
 
-          {/* Social Media */}
+          {/* Social Media 
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Follow Us</h5>
             <a href="#" className="text-white me-4"><i className="fab fa-facebook-f"></i></a>
             <a href="#" className="text-white me-4"><i className="fab fa-youtube"></i></a>
             <a href="#" className="text-white me-4"><i className="fab fa-instagram"></i></a>
             <a href="#" className="text-white"><i className="fab fa-whatsapp"></i></a>
-          </div>
+          </div>*/}
 
         </div>
 
