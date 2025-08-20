@@ -4,7 +4,7 @@ import churchcrowd3 from '../assets/churchcrowd3.jpg';
 import churchcrowd4 from '../assets/churchcrowd4.webp';
 import churchcrowd5 from '../assets/churchcrowd5.jpg';
 import churchcrowd6 from '../assets/churchcrowd6.jpg';
-import '../App.css'; // Assuming your custom styles go here
+import '../App.css'; 
 
 function HeroCards() {
   const cardData = [

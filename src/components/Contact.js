@@ -6,7 +6,7 @@ function Contact() {
       <div className="container">
         <h2 className="text-center text-primary fw-bold mb-4">Get in Touch</h2>
         <p className="text-center text-muted mb-5">
-          Whether you have a prayer request, testimony, or simply want to visit, we’d love to hear from you!
+          For Prayer requests, Testimonies or to visit, we'd love to hear from you!
         </p>
 
         <div className="row">
@@ -25,7 +25,7 @@ function Contact() {
 
               <div className="mb-3">
                 <label className="form-label fw-semibold">Message</label>
-                <textarea className="form-control" rows="5" placeholder="Type your message here..." required></textarea>
+                <textarea className="form-control" rows="5" maxlength="200" placeholder="Type your message here(less than 200 chars)..." required></textarea>
               </div>
 
               <button type="submit" className="btn btn-primary w-100 fw-bold">
@@ -40,7 +40,7 @@ function Contact() {
               <div className="mb-4">
                 <h5 className="fw-bold">Heaven Nti Church HQ</h5>
                 <p className="mb-1">
-                  📍 123 Glory Avenue, Accra, Ghana
+                  📍 Heaven Nti at Adjei Kojo Santeo RD, East legon Hills
                 </p>
                 <p className="mb-1">
                   📞 +233 247737452

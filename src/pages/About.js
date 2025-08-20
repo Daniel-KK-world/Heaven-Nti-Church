@@ -11,9 +11,6 @@ function About() {
       <HeroSlider/>
       <MissionVission />
       <Founders />
-      <h3 className="text-center my-5 fw-bold ">
-        <span className="text-primary">Our</span> <span className="text-success">Branches</span>
-      </h3>
       <Branches />
       <Contact />
       <h3 className="text-center my-5 fw-bold ">

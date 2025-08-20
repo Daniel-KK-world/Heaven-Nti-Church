@@ -51,7 +51,6 @@ const Footer = () => {
             <p>© {new Date().getFullYear()} Heaven Nti Church. All Rights Reserved.</p>
           </div>
           <div className="col-md-5 col-lg-4">
-            <p className="text-end">Built by +233508514620</p>
           </div>
         </div>
       </div>

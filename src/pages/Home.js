@@ -16,8 +16,8 @@ function Home() {
       <section className="text-center py-5 bg-light">
         <div className="container">
           <h3 className="display-4 fw-bold page-headers ">Welcome to Heaven NTI</h3>
-          <p className="lead text-secondary">
-            Jesus Christ is coming back soon. 
+          <p className="lead text-secondary mb-4 ">
+            Jesus Christ is coming back soon 
           </p>
         </div>
       </section>
