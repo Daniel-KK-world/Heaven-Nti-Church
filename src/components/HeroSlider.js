@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import JesusPicture from "../assets/Jesuspicture.jpg";
 import pastor5 from "../assets/pastor5.jpg";
 import pastor2 from "../assets/pastor2.jpg";
@@ -21,22 +21,19 @@ function HeroSlider() {
     setCurrentSlide(index);
   };
 
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
+  }, [slides.length]); // ✅ depends only on slides.length
 
-  const goToPrev = () => {
+  const goToPrev = useCallback(() => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
+  }, [slides.length]);
 
   // Auto-advance slides
   useEffect(() => {
-    const interval = setInterval(() => {
-      goToNext();
-    }, 4000);
-
+    const interval = setInterval(goToNext, 4000);
     return () => clearInterval(interval);
-  }, []);
+  }, [goToNext]); // ✅ safe to include now
 
   return (
     <section className="church-hero-slider">
