@@ -5,30 +5,34 @@ function VisionAndMission() {
   const missionRef = useRef(null);
 
   useEffect(() => {
-    const observerOptions = {
-      threshold: 0.3,
-      rootMargin: "0px"
-    };
+  const observerOptions = {
+    threshold: 0.3,
+    rootMargin: "0px",
+  };
 
-    const observerCallback = (entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-in');
-          observer.unobserve(entry.target);
-        }
-      });
-    };
+  const observerCallback = (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate-in");
+        observer.unobserve(entry.target);
+      }
+    });
+  };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-    
-    if (visionRef.current) observer.observe(visionRef.current);
-    if (missionRef.current) observer.observe(missionRef.current);
+  const observer = new IntersectionObserver(observerCallback, observerOptions);
 
-    return () => {
-      if (visionRef.current) observer.unobserve(visionRef.current);
-      if (missionRef.current) observer.unobserve(missionRef.current);
-    };
-  }, []);
+  // copy refs into local variables
+  const visionEl = visionRef.current;
+  const missionEl = missionRef.current;
+
+  if (visionEl) observer.observe(visionEl);
+  if (missionEl) observer.observe(missionEl);
+
+  return () => {
+    if (visionEl) observer.unobserve(visionEl);
+    if (missionEl) observer.unobserve(missionEl);
+  };
+}, []);
 
   return (
     <section className="vision-mission-section py-5 bg-light">
