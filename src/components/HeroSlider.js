@@ -8,50 +8,14 @@ import "../App.css";
 
 function HeroSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   const slides = [
-    { 
-      image: JesusPicture, 
-      caption: "Experience Divine Grace", 
-      verse: "For God so loved the world that he gave his one and only Son - John 3:16",
-      mobileImage: JesusPicture // You could use different images for mobile if needed
-    },
-    { 
-      image: pastor3, 
-      caption: "Spiritual Guidance", 
-      verse: "Your word is a lamp for my feet, a light on my path - Psalm 119:105",
-      mobileImage: pastor3
-    },
-    { 
-      image: pastor2, 
-      caption: "Jesus Christ is coming soon", 
-      verse: "Therefore keep watch, because you do not know the day or the hour - Matthew 25:13",
-      mobileImage: pastor2
-    },
-    { 
-      image: churchmother, 
-      caption: "Join us to worship", 
-      verse: "Come, let us bow down in worship - Psalm 95:6",
-      mobileImage: churchmother
-    },
-    { 
-      image: pastor5, 
-      caption: "Experience the power of prayer", 
-      verse: "Pray without ceasing - 1 Thessalonians 5:17",
-      mobileImage: pastor5
-    },
+    { image: JesusPicture },
+    { image: pastor3 },
+    { image: pastor2 },
+    { image: churchmother },
+    { image: pastor5 },
   ];
-
-  // Check screen size and adjust image positioning
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   const goToSlide = (index) => {
     setCurrentSlide(index);
@@ -69,7 +33,7 @@ function HeroSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       goToNext();
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
@@ -84,23 +48,10 @@ function HeroSlider() {
           >
             <div className="slide-image-container">
               <img
-                src={isMobile ? slide.mobileImage : slide.image}
+                src={slide.image}
                 alt={`Slide ${index + 1}`}
                 className="slide-image"
-                style={{ objectPosition: isMobile ? "center center" : "center center" }}
               />
-              <div className="image-overlay"></div>
-            </div>
-            
-            <div className="slide-content">
-              <div className="caption-container">
-                <h2 className="slide-caption">{slide.caption}</h2>
-                <p className="slide-verse">{slide.verse}</p>
-                <div className="hero-buttons">
-                  <button className="btn btn-primary">Join Us</button>
-                  <button className="btn btn-outline-light">Learn More</button>
-                </div>
-              </div>
             </div>
           </div>
         ))}
@@ -110,7 +61,7 @@ function HeroSlider() {
       <button className="slider-arrow slider-arrow-prev" onClick={goToPrev}>
         &#8249;
       </button>
-      <button className="slider-arrow slider-arrow-next" onClick={goToPrev}>
+      <button className="slider-arrow slider-arrow-next" onClick={goToNext}>
         &#8250;
       </button>
       

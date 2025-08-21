@@ -13,7 +13,7 @@ function Navbar() {
       </div>
 
       {/* Main Navbar */}
-      <nav className="navbar navbar-expand-md navbar-light bg-white shadow-sm px-4 py-3 ">
+      <nav className="navbar navbar-expand-md navbar-light bg-white shadow-sm px-4 py-3 sticky-top">
         <div className="container-fluid">
           {/* Logo + Title */}
           <div className="d-flex align-items-center gap-3">
