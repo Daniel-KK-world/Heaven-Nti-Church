@@ -1,9 +1,9 @@
-import womenscrowd from '../assets/womenscrowd.png';
-import youthcrowd from '../assets/youthcrowd.webp';
-import menscrowd from '../assets/menscrowd.jpeg';
-import childrencrowd from '../assets/childrencrowd.jpeg';
-import churchcrowd5 from '../assets/churchcrowd5.jpg';
-import churchcrowd6 from '../assets/churchcrowd6.jpg';
+import womenscrowd from '../assets/womenscrowd.jpg';
+import youthcrowd from '../assets/childrenscrowd2.jpg';
+import menscrowd from '../assets/menscrowd.jpg';
+import childrencrowd from '../assets/childrenscrowd.jpg';
+import churchcrowd5 from '../assets/churchcrowd6.jpg';
+import churchcrowd6 from '../assets/instrumentalists.jpg';
 import '../App.css'; // Assuming your custom styles go here
 
 function MinistryCards() {

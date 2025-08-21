@@ -1,7 +1,7 @@
-import churchcrowd1 from '../assets/churchcrowd1.webp';
-import churchcrowd2 from '../assets/churchcrowd2.jpg';
+import churchcrowd1 from '../assets/churchcrowd1.jpg';
+import churchcrowd2 from '../assets/Easterconvention.jpg';
 import churchcrowd3 from '../assets/churchcrowd3.jpg';
-import churchcrowd4 from '../assets/churchcrowd4.webp';
+import churchcrowd4 from '../assets/prayingforman.jpg';
 import churchcrowd5 from '../assets/churchcrowd5.jpg';
 import churchcrowd6 from '../assets/churchcrowd6.jpg';
 import '../App.css'; 

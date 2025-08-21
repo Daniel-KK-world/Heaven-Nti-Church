@@ -1,9 +1,9 @@
 import React from "react";
-import womenscrowd from '../assets/womenscrowd.png';
-import youthcrowd from '../assets/youthcrowd.webp';
-import menscrowd from '../assets/menscrowd.jpeg';
-import childrencrowd from '../assets/childrencrowd.jpeg';
-import churchcrowd5 from '../assets/churchcrowd5.jpg';
+import womenscrowd from '../assets/womenscrowd.jpg';
+import youthcrowd from '../assets/youthcrowd.jpg';
+import menscrowd from '../assets/menscrowd.jpg';
+import childrencrowd from '../assets/childrenscrowd.jpg';
+import churchcrowd5 from '../assets/churchcrowd7.jpg';
 import churchcrowd6 from '../assets/churchcrowd6.jpg';
 import '../App.css';
 
