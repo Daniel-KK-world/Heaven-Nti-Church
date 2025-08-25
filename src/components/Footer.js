@@ -29,7 +29,7 @@ const Footer = () => {
             <p><i className="fas fa-home mr-3"></i> East Legon Hills, Accra, Ghana</p>
             <p><i className="fas fa-envelope mr-3"></i> heaventichurch@gmail.com</p>
             <p><i className="fas fa-phone mr-3"></i> 0247 737 452</p>
-            <p><i className="fas fa-phone mr-3"></i> 0532 059 359</p>
+            <p><i className="fas fa-phone mr-3"></i> 054 649 6712</p>
           </div>
 
           {/* Social Media 

@@ -3,7 +3,7 @@ import churchcrowd2 from '../assets/Easterconvention.jpg';
 import churchcrowd3 from '../assets/churchcrowd3.jpg';
 import churchcrowd4 from '../assets/prayingforman.jpg';
 import churchcrowd5 from '../assets/churchcrowd5.jpg';
-import churchcrowd6 from '../assets/churchcrowd6.jpg';
+//import churchcrowd6 from '../assets/churchcrowd6.jpg';
 import '../App.css'; 
 
 function HeroCards() {
@@ -33,11 +33,7 @@ function HeroCards() {
       title: 'Women’s Ministry',
       desc: 'A safe space for women to thrive, grow, and build each other up in Christ.',
     },
-    {
-      img: churchcrowd6,
-      title: 'Prayer Night',
-      desc: 'Break chains and intercede every last Friday of the month at 10 PM.',
-    },
+  
   ];
 
   return (
