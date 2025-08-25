@@ -1,4 +1,4 @@
-import churchcrowd1 from '../assets/churchcrowd1.jpg';
+import churchcrowd1 from '../assets/sunday pic.jpg';
 import churchcrowd2 from '../assets/Easterconvention.jpg';
 import churchcrowd3 from '../assets/churchcrowd3.jpg';
 import churchcrowd4 from '../assets/prayingforman.jpg';
