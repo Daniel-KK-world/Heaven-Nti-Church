@@ -25,7 +25,7 @@ function Founders() {
               <div className="card-body p-4">
                 <h4 className="card-title text-success fw-bold">Prophet Joseph Osei</h4>
                 <p className="card-text">
-                  Founder and Senior Pastor of Heaven Nti Church. A passionate preacher of holiness,
+                  Founder and Senior Prophet of Heaven Nti Church. A passionate preacher of holiness,
                   deliverance, and the power of the Holy Ghost. Called to raise kingdom champions.
                 </p>
               </div>
