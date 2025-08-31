@@ -23,7 +23,7 @@ function HeroSlider() {
 
   const goToNext = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
-  }, [slides.length]); // ✅ depends only on slides.length
+  }, [slides.length]);
 
   const goToPrev = useCallback(() => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
@@ -33,7 +33,7 @@ function HeroSlider() {
   useEffect(() => {
     const interval = setInterval(goToNext, 4000);
     return () => clearInterval(interval);
-  }, [goToNext]); // ✅ safe to include now
+  }, [goToNext]);
 
   return (
     <section className="church-hero-slider">
@@ -62,12 +62,12 @@ function HeroSlider() {
         &#8250;
       </button>
       
-      {/* Dots indicator */}
-      <div className="custom-dots">
+      {/* Dots indicator - CENTERED */}
+      <div className="slider-dots">
         {slides.map((_, idx) => (
           <button 
             key={idx} 
-            className={`dot ${currentSlide === idx ? 'active' : ''}`}
+            className={`slider-dot ${currentSlide === idx ? 'active' : ''}`}
             onClick={() => goToSlide(idx)}
             aria-label={`Go to slide ${idx + 1}`}
           ></button>
