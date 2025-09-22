@@ -1,7 +1,7 @@
 import React from "react";
 import pastor4 from "../assets/pastor4.jpg";
 import churchmother from "../assets/churchmother.jpg";
-import asafomame from "../assets/sunday pic.jpg";
+import asafomame from "../assets/asafomame.jpg";
 import "../App.css";
 
 function Founders() {

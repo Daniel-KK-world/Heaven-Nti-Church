@@ -1,41 +1,42 @@
-import womenscrowd from '../assets/womenscrowd.jpg';
-import youthcrowd from '../assets/childrenscrowd2.jpg';
-import menscrowd from '../assets/menscrowd.jpg';
-import childrencrowd from '../assets/childrenscrowd.jpg';
-import churchcrowd5 from '../assets/churchcrowd6.jpg';
-import churchcrowd6 from '../assets/instrumentalists.jpg';
-import '../App.css'; // Assuming your custom styles go here
+import mensfellowhip from '../assets/mensfellowship.jpg';
+//import youth from '../assets/youth.jpg';
+import youth2 from '../assets/youth2.jpg';
+import womensfellowship from '../assets/Womens fellowship.jpg';
+import christmasconvention from '../assets/Christmass Convention.jpg';
+import easterconvention from '../assets/Easter Convention .jpg';
+import sundaychool from '../assets/sunday shool.jpg';
+import '../App.css'; 
 
 function MinistryCards() {
 
      const cardData = [
     {
-      img: menscrowd,
+      img: mensfellowhip,
       title: 'Mens Ministry',
       desc: 'Join a community of men moving with purpose and a vision to serve God..',
     },
     {
-      img: womenscrowd,
+      img: womensfellowship,
       title: 'Womens Ministry',
       desc: 'Join numerous women of god as they study, praise and worship God',
     },
     {
-      img: youthcrowd,
+      img: youth2,
       title: 'Youth Ministry',
       desc: 'Remember your creator in the time of your youth',
     },
     {
-      img: childrencrowd,
+      img: sundaychool,
       title: 'Sunday School',
       desc: 'Raising tomorrow’s leaders from a young age',
     },
     {
-      img: churchcrowd5,
+      img: christmasconvention,
       title: 'Christmas Convention',
       desc: 'Three day convention to celebrate the birth of Jesus Christ and spread the gospel',
     },
     {
-      img: churchcrowd6,
+      img: easterconvention,
       title: 'Easter Convention',
       desc: 'Three day convention to celebrate the death and resurection of Jesus Christ',
     },

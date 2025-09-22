@@ -1,41 +1,42 @@
 import React from "react";
-import womenscrowd from '../assets/womenscrowd.jpg';
-import youthcrowd from '../assets/youthcrowd.jpg';
-import menscrowd from '../assets/menscrowd.jpg';
-import childrencrowd from '../assets/childrenscrowd.jpg';
-import churchcrowd5 from '../assets/churchcrowd7.jpg';
-import churchcrowd6 from '../assets/churchcrowd6.jpg';
-import '../App.css';
+import mensfellowhip from '../assets/mensfellowship.jpg';
+//import youth from '../assets/youth.jpg';
+import youth2 from '../assets/youth2.jpg';
+import womensfellowship from '../assets/Womens fellowship.jpg';
+import christmasconvention from '../assets/Christmass Convention.jpg';
+import easterconvention from '../assets/Easter Convention .jpg';
+import sundaychool from '../assets/sunday shool.jpg';
+import '../App.css'; 
 
 function Branches() {
   const cardData = [
     {
-      img: youthcrowd,
+      img: youth2,
       title: 'East-Legon Hills',
       desc: 'Accra'
     },
     {
-      img: menscrowd,
+      img: mensfellowhip,
       title: 'Gbetsile',
       desc: 'Accra'
     },
     {
-      img: childrencrowd,
+      img: sundaychool,
       title: 'Apolonia',
       desc: 'Accra' 
     },
     {
-      img: womenscrowd,
+      img: womensfellowship,
       title: 'Bechem Breme',
       desc: 'Bechem Breme'
     },
     {
-      img: churchcrowd5,
+      img: christmasconvention,
       title: 'Techiman',
       desc: 'Brong Ahafo Region' 
     },
     {
-      img: churchcrowd6,
+      img: easterconvention,
       title: 'Kintampo',
       desc: 'Brong Ahafo Region'
     },
