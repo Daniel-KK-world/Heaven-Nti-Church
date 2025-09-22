@@ -1,34 +1,35 @@
-import churchcrowd1 from '../assets/sunday pic.jpg';
-import churchcrowd2 from '../assets/Easterconvention.jpg';
-import churchcrowd3 from '../assets/churchcrowd3.jpg';
-import churchcrowd4 from '../assets/prayingforman.jpg';
-import churchcrowd5 from '../assets/churchcrowd5.jpg';
+import mensfellowhip from '../assets/mensfellowship.jpg';
+//import youth from '../assets/youth.jpg';
+import youth2 from '../assets/youth2.jpg';
+import womensfellowship from '../assets/Womens fellowship.jpg';
+import christmasconvention from '../assets/Christmass Convention.jpg';
+import easterconvention from '../assets/Easter Convention .jpg';
 import '../App.css'; 
 
 function HeroCards() {
   const cardData = [
     {
-      img: churchcrowd1,
+      img: mensfellowhip,
       title: 'Sunday Worship',
       desc: 'Join us every Sunday at 9:00 AM to encounter God’s presence together.',
     },
     {
-      img: churchcrowd2,
+      img: youth2,
       title: 'Midweek Services',
       desc: 'Tuesdays at 6:30 PM — recharge with teaching, worship, and fellowship.',
     },
     {
-      img: churchcrowd3,
+      img: womensfellowship,
       title: 'Friday Service',
       desc: 'Friday evenings at 6:30 PM. Step into prayer, revival, and growth.',
     },
     {
-      img: churchcrowd4,
+      img: easterconvention,
       title: 'Youth Fellowship',
       desc: 'Raising tomorrow’s leaders — energetic worship & real talk for youth.',
     },
     {
-      img: churchcrowd5,
+      img: christmasconvention,
       title: 'Women’s Ministry',
       desc: 'A safe space for women to thrive, grow, and build each other up in Christ.',
     },

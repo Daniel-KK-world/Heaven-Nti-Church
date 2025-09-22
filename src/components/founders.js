@@ -50,7 +50,7 @@ function Founders() {
               <div className="card-body p-4">
                 <h4 className="card-title text-success fw-bold">Prophetess Doris Anane</h4>
                 <p className="card-text">
-                  Assistant Pastor of Heaven Nti Church. A dedicated minister with a strong prophetic gift, 
+                  Pastor of Heaven Nti Church. A dedicated minister with a strong prophetic gift, 
                   passionate about prayer, intercession, and guiding believers into a deeper walk with Christ.
                 </p>
               </div>
