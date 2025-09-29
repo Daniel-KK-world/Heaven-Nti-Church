@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from "react";
-import JesusPicture from "../assets/Jesuspicture.jpg";
+import JesusPicture from "../assets/Jesuspicture.png";
 import pastor5 from "../assets/pastor5.jpg";
-import pastor2 from "../assets/pastor2_edited.jpg";
-import churchmother from "../assets/churchmother.jpg";
-import pastor3 from "../assets/pastor3.jpg";
+import pastor2 from "../assets/pastor2.jpg";
+import churchmother from "../assets/churchmother.JPG";
+import pastor3 from "../assets/pastor3.JPG";
 import "../App.css";
 
 function HeroSlider() {

@@ -1,6 +1,6 @@
 import React from "react";
 import pastor4 from "../assets/pastor4.jpg";
-import churchmother from "../assets/churchmother.jpg";
+import churchmother from "../assets/churchmother.JPG";
 import asafomame from "../assets/asafomame.jpg";
 import "../App.css";
 

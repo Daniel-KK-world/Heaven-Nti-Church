@@ -46,7 +46,7 @@ function Contact() {
                   📞 +233 247737452
                 </p>
                 <p className="mb-1">
-                  📧 contact@heavenntichurch.org
+                  📧 contact heavennti53@gmail.com
                 </p>
               </div>
 
