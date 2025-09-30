@@ -17,12 +17,12 @@ function HeroCards() {
     {
       img: youth2,
       title: 'Midweek Services',
-      desc: 'Tuesdays at 6:30 PM — recharge with teaching, worship, and fellowship.',
+      desc: 'Tuesdays at 6:00 PM — recharge with teaching, worship, and fellowship.',
     },
     {
       img: womensfellowship,
       title: 'Friday Service',
-      desc: 'Friday evenings at 6:30 PM. Step into prayer, revival, and growth.',
+      desc: 'Friday evenings at 6:00 PM. Step into prayer, revival, and growth.',
     },
     {
       img: christmasconvention,
