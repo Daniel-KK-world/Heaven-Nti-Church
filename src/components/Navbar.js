@@ -8,7 +8,6 @@ function Navbar() {
     <header className="w-100">
       {/* Top Strip */}
       <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center">
-        <p className="mb-0">Sunday Service: 9:00 AM | Midweek: Tue 6:00 PM | Fri 6:00 PM</p>
         <p className="mb-0">Call: +233 247737452 | +233 532059359 | +233 540450160 | +233 0532547924 </p>
       </div>
 
