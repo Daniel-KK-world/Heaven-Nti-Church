@@ -66,7 +66,7 @@ function VisionAndMission() {
               <p className="fs-5">
                 To disciple souls through sound doctrine, prayer, and prophetic insight. 
                 We are committed to teaching the undiluted Word of God, empowering believers,
-                and preparing the saints for the second coming of Christ.
+                and preparing them for the second coming of Christ.
               </p>
             </div>
           </div>

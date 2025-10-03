@@ -28,8 +28,7 @@ function Founders() {
                 <h3 className="card-title text-success fw-bold">Prophet Joseph Osei</h3>
                 <p className="card-text fst-italic">Founder and Senior Prophet</p>
                 <p className="card-text">
-                  Founder and Senior Prophet of Heaven Nti Church. A passionate preacher of holiness,
-                  deliverance, and the power of the Holy Ghost. Called to raise kingdom champions.
+                  Founder and Overseer of Heaven Nti Church.  A passionate man of God who dissects the word of God like no other to teach, impart the Holy Spirit and direct souls into the kingdom of Heaven
                 </p>
               </div>
             </div>
@@ -50,8 +49,8 @@ function Founders() {
               <div className="card-body p-4">
                 <h4 className="card-title text-success fw-bold">Prophetess Doris Anane</h4>
                 <p className="card-text">
-                  Pastor of Heaven Nti Church. A dedicated minister with a strong prophetic gift, 
-                  passionate about prayer, intercession, and guiding believers into a deeper walk with Christ.
+                
+                 A dedicated woman of God with a strong prophetic anointing. Prophetess is passionate about prayer, intercession, and guiding believers into a closer walk with Christ.
                 </p>
               </div>
             </div>
@@ -67,7 +66,7 @@ function Founders() {
                 />
               </div>
               <div className="card-body p-4">
-                <h4 className="card-title text-success fw-bold">Lady Pastor AsafoMaame Soraya Bond Osei</h4>
+                <h4 className="card-title text-success fw-bold">Firstlady  Pastor Asafomaame Soraya Obaapa Esther  Osei </h4>
                 <p className="card-text">
                   Head Pastor for all Young Pastors and Wife of Prophet Joseph Osei
                 </p>
