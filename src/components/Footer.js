@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
             <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
             <p><i className="fas fa-home mr-3"></i> East Legon Hills, Accra, Ghana</p>
-            <p><i className="fas fa-envelope mr-3"></i> heaventichurch@gmail.com</p>
+            <p><i className="fas fa-envelope mr-3"></i> heaventi53@gmail.com</p>
             <p><i className="fas fa-phone mr-3"></i> 0247 737 452</p>
             <p><i className="fas fa-phone mr-3"></i> 054 649 6712</p>
           </div>
