@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <header className="w-100">
       {/* Top Strip */}
-      <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center">
+      <div className="bg-dark text-light small px-4 py-1 d-flex justify-content-between align-items-center text-center navedit">
         <p className="mb-0">Call: +233 247737452 |+233 53 205 9359</p>
       </div>
 

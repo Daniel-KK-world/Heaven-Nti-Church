@@ -1,57 +1,75 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white pt-5 pb-4 mt-5">
-      <div className="container text-md-left">
-        <div className="row text-md-left">
+    <footer className=" text-light pt-5 pb-4 mt-5 navedit ">
+      <div className="container text-center">
+        <div className="row">
 
           {/* Church Description */}
-          <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
-            <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Heaven Nti Church</h5>
+          <div className="col-md-4 mb-4">
+            <h5 className="text-warning fw-bold mb-3">Heaven Nti Church</h5>
             <p>
-              Heaven Nti is a Holy Spirit-centered end-time church passionate about winning souls and preparing them for the second coming of Christ.
+              A Holy Spirit-centered end-time church passionate about winning
+              souls and preparing them for the second coming of Christ.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
-            <p><a href="/about" className="text-white text-decoration-none">About Us</a></p>
-            <p><a href="/ministries" className="text-white text-decoration-none">Ministries</a></p>
-            <p><a href="/contact" className="text-white text-decoration-none">Contact</a></p>
-            <p><a href="/about" className="text-white text-decoration-none">Vision & Mission</a></p>
+          <div className="col-md-2 mb-4">
+            <h6 className="text-warning fw-bold mb-3">Quick Links</h6>
+            <ul className="list-unstyled">
+              <li><Link to="/about" className="text-white text-decoration-none">About Us</Link></li>
+              <li><Link to="/ministries" className="text-white text-decoration-none">Ministries</Link></li>
+              <li><Link to="/contact" className="text-white text-decoration-none">Contact</Link></li>
+              <li><Link to="/about" className="text-white text-decoration-none">Vision & Mission</Link></li>
+            </ul>
           </div>
 
-          {/* Contact */}
-          <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
-            <p><i className="fas fa-home mr-3"></i> East Legon Hills, Accra, Ghana</p>
-            <p><i className="fas fa-envelope mr-3"></i> heaventi53@gmail.com</p>
-            <p><i className="fas fa-phone mr-3"></i> 0247 737 452</p>
-            <p><i className="fas fa-phone mr-3"></i> 054 649 6712</p>
+          {/* Contact Info */}
+          <div className="col-md-3 mb-4 ">
+            <h6 className="text-warning fw-bold mb-3">Contact</h6>
+            <address>
+              <p><i className="fa-solid fa-home me-2"></i> East Legon Hills, Accra</p>
+              <p><i className="fa-solid fa-envelope me-2"></i> heaventi53@gmail.com</p>
+              <p>
+                <i className="fa-solid fa-phone me-2"></i>
+                <a href="tel:+233247737452" className="text-white text-decoration-none">0247 737 452</a>
+              </p>
+              <p>
+                <i className="fa-solid fa-phone me-2"></i>
+                <a href="tel:+233546496712" className="text-white text-decoration-none">054 649 6712</a>
+              </p>
+            </address>
           </div>
 
-          {/* Social Media 
-          <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 className="text-uppercase mb-4 font-weight-bold text-warning">Follow Us</h5>
-            <a href="#" className="text-white me-4"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="text-white me-4"><i className="fab fa-youtube"></i></a>
-            <a href="#" className="text-white me-4"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="text-white"><i className="fab fa-whatsapp"></i></a>
-          </div>*/}
+          {/* Social Media */}
+          <div className="col-md-3 mb-4 text-center">
+            <h6 className="text-warning fw-bold mb-3">Follow Us</h6>
+            <div className="d-flex gap-3">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-white">
+                <i className="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-white">
+                <i className="fa-brands fa-youtube"></i>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-white">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-white">
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
 
         </div>
 
-        <hr className="mb-4"/>
+        <hr className="border-secondary" />
 
         {/* Copyright */}
-        <div className="row align-items-center">
-          <div className="col-md-7 col-lg-8">
-            <p>© {new Date().getFullYear()} Heaven Nti Church. All Rights Reserved.</p>
-          </div>
-          <div className="col-md-5 col-lg-4">
-          </div>
+        <div className="text-center">
+          <p className="mb-0">© {new Date().getFullYear()} Heaven Nti Church | All Rights Reserved</p>
         </div>
       </div>
     </footer>
