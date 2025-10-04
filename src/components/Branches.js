@@ -28,7 +28,7 @@ function Branches() {
     {
       img: womensfellowship,
       title: 'Bechem Breme',
-      desc: 'Bechem Breme'
+      desc: 'Brong Ahafo Region'
     },
     {
       img: christmasconvention,
