@@ -32,7 +32,7 @@ const Footer = () => {
             <h6 className="text-warning fw-bold mb-3">Contact</h6>
             <address>
               <p><i className="fa-solid fa-home me-2"></i> East Legon Hills, Accra</p>
-              <p><i className="fa-solid fa-envelope me-2"></i> heaventi53@gmail.com</p>
+              <p><i className="fa-solid fa-envelope me-2"></i> heavennti53@gmail.com</p>
               <p>
                 <i className="fa-solid fa-phone me-2"></i>
                 <a href="tel:+233247737452" className="text-white text-decoration-none">0247 737 452</a>
